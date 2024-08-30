@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.product_details{
+    margin: 20px 0px;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.detail_img{
+    max-width: 400px;
+    border-radius: 10px;
+}
+.product_details_txtContent{
+    width: 50%;
+}

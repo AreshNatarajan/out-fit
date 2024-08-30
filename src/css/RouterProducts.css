@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+.AllProducts{
+    position: relative; 
+    top:100px;
+    max-width: 1200px;
+    margin: auto;
+}
+.product_nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-around;
+}
+.product_nav .link_nav{
+    text-decoration: none;
+    padding: 6px 10px;
+    background-color: black;
+    color: white;
+    margin: 5px 0px;
+    border-radius: 8px;
+}
+.filter{
+    max-width: 80%;
+    margin: auto;
+    position: sticky;
+    top: 50px;
+    z-index: 10;
+}
+.filter_input{
+    width: 100%;
+    padding: 5px 10px;
+    margin: 10px auto;
+    border: 1px solid violet;
+    outline: none;
+    background-color: transparent;
+    font-weight: bolder;
+    border-radius: 8px;
+}
+
