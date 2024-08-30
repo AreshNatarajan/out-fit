@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 
 //css
 
- import '../css/ProductDetail.css'
+//  import '../css/ProductDetail.css'
 
 import top1 from "../assets/cc4e159f6178631788d2ae4ba1bee4ea.jpg";
 import top2 from "../assets/ac44041ba424c18d3ec187180035684e.jpg";
@@ -54,14 +54,7 @@ function ProductDetail() {
 
   return (
       <>
-       <div className="product_details">
-           
-           <img className='detail_img' src={Product.img} alt={Product.dressName}  />
-           <div className="product_details_txtContent">
-               <h3>{Product.dressName}</h3>
-               <p>{Product.description}</p>
-           </div>
-       </div>
+       
       </>
   );
 }
